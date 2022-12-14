@@ -59,3 +59,25 @@
   font-size: 20px;
   font-family: monospace;
 }
+#back {
+  background-color: #050202;
+  color: aqua;
+
+  border: 2px solid aqua;
+  width: 120px;
+  font-weight: bold;
+  margin-left: 60px;
+  height: 40px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin-top: 155px;
+  cursor: pointer;
+  transition: transformn 0.2s;
+  border-radius: 12px;
+}
+#back:hover {
+  background-color: aqua;
+  color: #050202;
+  border: none;
+  transform: scale(1.2);
+}
