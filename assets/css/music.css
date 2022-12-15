@@ -15,9 +15,37 @@
   border-radius: 20px;
 }
 .div-1 {
-  margin-top: 50px;
+  padding-top: 50px;
+  padding-left: 80px;
+  border-bottom: 1px solid aqua;
+  width: 91%;
+  height: 88px;
 }
 .music {
   width: 700px;
-  opacity: 0.7;
+  /* opacity: 0.9; */
+}
+.music-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+}
+.left {
+  display: inline-block;
+  height: 100px;
+  width: 290px;
+}
+.left h2 {
+  font-size: 15px;
+  display: inline-block;
+  font-family: sans-serif;
+  vertical-align: top;
+  padding-top: 25px;
+  padding-left: 60px;
+}
+.right {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 18px;
+  margin-left: 20px;
 }
